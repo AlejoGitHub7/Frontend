@@ -1,0 +1,18 @@
+div p{
+    color: greenyellow;
+}
+
+div > div{
+    background-color: red;
+}
+.es{
+    color:blue;
+}
+
+p + section{
+    background-color: blueviolet;
+}
+
+div ~ p{
+    color: yellow;
+}
