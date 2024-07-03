@@ -1,0 +1,12 @@
+.Hola{
+    background-color: rgb(162, 234, 234);
+}
+#mundo{
+    background-color: lightseagreen;
+}
+a[href="https://es.uefa.com/"]{
+    color: black;
+}
+*{
+    color: red;
+}

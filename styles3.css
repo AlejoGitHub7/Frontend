@@ -1,0 +1,21 @@
+p{
+    color: aquamarine;
+}
+p:hover{
+    color: black;
+}
+div p:nth-child(2){
+    color: red;
+}
+p::first-letter{
+    color: blue;
+}
+p::before{
+    content: "*";
+}
+p::after{
+    content: "🏆";
+}
+::placeholder{
+    color: black;
+}
