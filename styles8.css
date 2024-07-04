@@ -1,0 +1,29 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 200px;
+    height: 200px;
+}
+
+div{
+    background-color: aqua;
+    color: black;
+    border: 2px solid purple;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    margin: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+section div:nth-child(1){
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+section div:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
