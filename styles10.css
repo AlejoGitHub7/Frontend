@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(6, 14, 21);
+}
+.container{
+    background-color: rgb(255, 169, 48);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px
+}
+.item{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+}
+header{
+    background-color: transparent;
+    display: flex;
+    color: rgb(255, 169, 48);
+    justify-content: center;
+    position: fixed;
+}
+section{
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    
+}
+p{
+    color: white;
+    margin: 15px;
+}
+
+#Cuento{
+    border: 1px solid rgb(255, 169, 48);
+    box-sizing: border-box;
+    margin: 20px;
+    position: relative;
+    right: 0;
+    width: 700px;
+    left: 400px;
+}
+
+img{
+    width: 400px;
+}
+
+#frutas{
+    padding-left: 700px;
+}
+ul p{
+    position: sticky;
+    top: 0px;
+}
