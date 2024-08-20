@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolls Independientes</title>
+    <style>
+        /* Estilos generales */
+        body {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Estilo para cada contenedor */
+        .scroll-container {
+            width: 45%; /* Ancho del contenedor */
+            height: 100%;
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Permite el scroll vertical */
+            padding: 10px;
+            box-sizing: border-box; /* Incluye padding y border en el width */
+        }
+
+        /* Estilo para el contenido de ejemplo */
+        .content {
+            height: 2000px; /* Altura para mostrar el scroll */
+            background: linear-gradient(to bottom, #f0f8ff, #4682b4);
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-container">
+        <div class="content">
+            Contenido del Contenedor 1
+        </div>
+    </div>
+
+    <div class="scroll-container">
+        <div class="content">
+            Contenido del Contenedor 2
+        </div>
+    </div>
+</body>
+</html>
